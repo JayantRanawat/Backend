@@ -74,6 +74,6 @@ app.get("/read-data", async (req, res) => {
   res.status(200).json({ message: "success", data, path });
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`server is running port on ${process.env.PORT}`);
+app.listen(5200, () => {
+  console.log("server is running port on 5200");
 });
